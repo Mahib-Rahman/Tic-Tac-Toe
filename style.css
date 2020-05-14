@@ -9,11 +9,11 @@ table, th, td {
     transition: ease 0.2s;
     text-align: center;
     border-collapse: collapse;
-    font-size: 90px;
+    font-size: 70px;
     font-family: Asap, sans-serif;
     color: cornflowerblue;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
 
