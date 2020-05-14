@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, th, td {
+    transition: ease 0.2s;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 50px;
+    font-family: Asap, sans-serif;
+    color: cornflowerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    margin-left:auto; 
+    margin-right:auto;
+}
+td:hover
+{
+    transition: all ease 0.4s;
+    background: rgba(255, 255, 255, 0.333);
+    cursor: pointer;
+}
+.one, .two, .four, .five
+{
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+.six
+{
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+.eight
+{
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+body
+{
+    background-color: cornflowerblue;
+}
+
+header
+{
+    background: white;
+    padding: 20px;
+}
+header > h1
+{
+    color: black;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.Score-board
+{
+    margin: 17px auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 180px;
+
+    font-family: Asap, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 6px 15px;
+    position: relative;
+}
+
+.badge
+{
+    padding: 2px 2px;
+    font-size: 15px;
+    background: red;
+}
+
+#player1_label
+{
+    position: absolute;
+    top: 18px;
+    left: -42px;
+}
+#player2_label
+{
+    position: absolute;
+    top: 18px;
+    right: -44px;
+}
+
+.result
+{
+    margin-top: 30px;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.instruction
+{
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Asap, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.sub_instruction
+{
+    margin-top: 10px;
+    font-size: 15px;
+}
