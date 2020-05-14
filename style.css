@@ -9,11 +9,11 @@ table, th, td {
     transition: ease 0.2s;
     text-align: center;
     border-collapse: collapse;
-    font-size: 50px;
+    font-size: 90px;
     font-family: Asap, sans-serif;
     color: cornflowerblue;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 5px;
     padding-top: 5px;
 
@@ -28,18 +28,18 @@ td:hover
 }
 .one, .two, .four, .five
 {
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
+    border-bottom: 8px solid white;
+    border-right: 8px solid white;
 }
 .six
 {
-    border-bottom: 5px solid white;
-    border-top: 5px solid white;
+    border-bottom: 8px solid white;
+    border-top: 8px solid white;
 }
 .eight
 {
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 8px solid white;
+    border-right: 8px solid white;
 }
 
 body
