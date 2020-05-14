@@ -92,6 +92,8 @@ function reset_game()
         ["4", "5", "6"],
         ["7", "8", "9"]
     ];
+    if(turn % 2 == 0)
+        turn++;
     spots_filled = 0;
     one_status = false, two_status = false, three_status = false;
     four_status = false, five_status = false, six_status = false;
