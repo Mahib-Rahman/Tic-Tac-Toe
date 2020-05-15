@@ -17,6 +17,7 @@ var player2_display = document.getElementById("player2_score");
 
 //if the spots_filled equals 9 and no winner then the game was a tie
 var player1_score = 0, player2_score = 0, spots_filled = 0, turn = 0;
+var prev_turn = 0;
 //the status variables wil be used to check 
 var one_status = false, two_status = false, three_status = false;
 var four_status = false, five_status = false, six_status = false;
@@ -92,6 +93,15 @@ function reset_game()
         ["4", "5", "6"],
         ["7", "8", "9"]
     ];
+    //takes care of eho goes first
+    var change_in_turn = 0;
+    change_in_turn = turn - prev_turn;
+    change_in_turn = Math.abs(change_in_turn);
+    if(change_in_turn % 2 == 0){
+        turn++;
+    }
+    prev_turn = turn;
+    //the rest is reset code
     spots_filled = 0;
     one_status = false, two_status = false, three_status = false;
     four_status = false, five_status = false, six_status = false;
