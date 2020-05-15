@@ -135,26 +135,26 @@ function updateGrid(choice, turn)
     if(check_for_winner() == true)
     {
         winner_display.innerHTML = "Player 1 WINS!";
-        setTimeout(function(){ winner_display.innerHTML = "Lets play"; }, 3000);
+        setTimeout(function(){ winner_display.innerHTML = "Lets play"; }, 2000);
         player1_score++;
         player1_display.innerHTML = player1_score;
-        setTimeout(reset_game, 3000);
+        setTimeout(reset_game, 1000);
         spots_filled -= spots_filled;
     }
     else if(check_for_Owinner() == true)
     {
         winner_display.innerHTML = "Player 2 WINS!";
-        setTimeout(function(){ winner_display.innerHTML = "Lets play"; }, 3000);
+        setTimeout(function(){ winner_display.innerHTML = "Lets play"; }, 2000);
         player2_score++;
         player2_display.innerHTML = player2_score;
-        setTimeout(reset_game, 3000);
+        setTimeout(reset_game, 1000);
         spots_filled -= spots_filled;
     }
     else if((spots_filled == 9))
     {
         winner_display.innerHTML = "Awww its a Tie. Let's Continue!";
-        setTimeout(function(){ winner_display.innerHTML = "Lets play"; }, 3000);
-        setTimeout(reset_game, 3000);
+        setTimeout(function(){ winner_display.innerHTML = "Lets play"; }, 2000);
+        setTimeout(reset_game, 1000);
         spots_filled -= spots_filled;
     }
     return;
